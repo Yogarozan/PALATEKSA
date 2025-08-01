@@ -1,0 +1,36 @@
+/* Gaya dasar (mobile) */
+body, h1, p, .feature {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+.hero {
+  padding: 20px;
+  text-align: center;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Breakpoint untuk tablet dan desktop */
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    gap: 15px;
+  }
+  .features {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .hero h1 {
+    font-size: 36px;
+  }
+}
