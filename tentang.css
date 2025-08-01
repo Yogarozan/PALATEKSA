@@ -1,0 +1,36 @@
+#tentang-kami {
+  background-color: #fd9800; /* hijau pucat */
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#tentang-kami .container {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+}
+
+#tentang-kami h2 {
+  font-size: 36px;
+  color: #165c2f;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#tentang-kami h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #1b7f39;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+#tentang-kami p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: auto;
+}
